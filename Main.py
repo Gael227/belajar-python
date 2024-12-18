@@ -9,6 +9,13 @@ def addList():
             break
     toDoList.append(isi)
 
+def removeList():
+    if not toDoList:
+        print('list kosong')
+        return
+    input2 = int(input(print('index kegiatan yg ingin dihapus: ')))
+
+
 print('-------todo list--------')
 print('1. add to list')
 print('2. delete item in list')

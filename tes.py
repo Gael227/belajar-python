@@ -11,9 +11,11 @@ else:
 #menampilkan karakter dari index [x1 s/d x2]
 print('---slicing')
 b = 'phild corn'
+c = 16
 print(b[2:8])
 print(b[:5])
 print(b[6:])
+
 
 
 
